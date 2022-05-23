@@ -3,16 +3,6 @@
   display: flex;
   align-items: center;
 
-  &.swcwhskqnx {
-    position: fixed;
-    top: -200px;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: #ffffff;
-    animation: menuHeaderMove 1s 0.6s forwards ease-in;
-  }
-
   .ikDOvZxITU {
     display: flex;
     align-items: center;
@@ -204,12 +194,3 @@
   }
 }
 
-@keyframes menuHeaderMove {
-  from {
-    top: -200px;
-  }
-
-  to {
-    top: 0;
-  }
-}

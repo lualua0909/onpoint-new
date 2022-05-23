@@ -13,8 +13,9 @@
 .right-side-animation {
 	animation: right_to_left 3s ease;
 }
-a, u {
-  text-decoration: none;
+a,
+u {
+	text-decoration: none;
 }
 @keyframes right_to_left {
 	from {
@@ -27,7 +28,7 @@ a, u {
 }
 
 .float01 {
-  margin-top: 12px;
+	margin-top: 12px;
 	position: fixed;
 	width: 60px;
 	height: 60px;
@@ -41,8 +42,30 @@ a, u {
 
 .my-float {
 	font-size: 26px;
-	background-color: #CB222A;
+	background-color: #cb222a;
 	color: #fff;
 	border-radius: 50%;
-  padding: 17px
+	padding: 17px;
+}
+
+.ywedyxqmzp {
+	&.swcwhskqnx {
+		position: fixed;
+		top: -200px;
+		left: 0;
+		width: 100%;
+		z-index: 100;
+		background-color: #ffffff;
+		animation: menuHeaderMove 1s 0.6s forwards ease-in;
+	}
+}
+
+@keyframes menuHeaderMove {
+	from {
+		top: -200px;
+	}
+
+	to {
+		top: 0;
+	}
 }

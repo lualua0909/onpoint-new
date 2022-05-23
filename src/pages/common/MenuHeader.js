@@ -4,7 +4,6 @@ import { MenuFoldOutlined } from "@ant-design/icons"
 import "./MenuHeader.scss"
 import { useState } from "react"
 import MenuHeaderItem from "./MenuHeaderItem"
-import { useEffect } from "react"
 
 const menu = [
   {
@@ -64,25 +63,14 @@ const menu = [
 
 export default function MenuHeader() {
   const [showMenu, setShowMenu] = useState(false)
-  const [scrollBar, setScrollBar] = useState(0)
   const [showMenuChildren, setShowMenuChildren] = useState(null)
-
-  useEffect(() => {
-    const onScroll = () => {
-      const scrollTop = window.pageYOffset
-      setScrollBar(scrollTop)
-    }
-    window.removeEventListener("scroll", onScroll)
-    window.addEventListener("scroll", onScroll, { passive: true })
-    return () => window.removeEventListener("scroll", onScroll)
-  }, [])
 
   const handleChangePage = url => {
     window.location.href = url
   }
 
   return (
-    <div className={`iLADtaueIG ${scrollBar > 0 ? "swcwhskqnx" : ""}`}>
+    <div className={`iLADtaueIG`}>
       <ContainerMain>
         <div className="ikDOvZxITU">
           <div className="kqAdKcHozX" onClick={() => handleChangePage("/")}>
