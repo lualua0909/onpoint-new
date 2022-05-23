@@ -1,48 +1,61 @@
-import { useState } from 'react'
-import arrowDown from '../../assets/images/Menu/arrow-down.png'
-import { useNavigate } from 'react-router-dom'
+import { useState } from "react"
+import { DownOutlined, ArrowRightOutlined } from "@ant-design/icons"
 
-export default function MenuHeaderItem({ data }) {
-  const [showMenuChildren, setShowMenuChildren] = useState(false)
-  const history = useNavigate()
-
-  const handleChangePage = (url) => {
+export default function MenuHeaderItem({
+  data,
+  showMenuChildren,
+  setShowMenuChildren,
+}) {
+  const handleChangePage = url => {
     if (url) {
-      history(url)
+      window.location.href = url
     } else {
-      setShowMenuChildren(!showMenuChildren)
+      setShowMenuChildren(null)
     }
   }
 
   return (
-    <>
-      <li className={`wzChTCzOBu ${showMenuChildren ? 'BWdppYCOKf' : ''}`}>
-        <div className="ijgePvHfdq" onClick={() => handleChangePage(data?.link)}>
-          <span className="dvkRvnvuKA">{data?.name}</span>
-          <span className="mVtISIbDJs"><img src={arrowDown} alt="" className="NwbqGDMIDg" /></span>
+    <li
+      className={`wzChTCzOBu ${
+        showMenuChildren === data?.name ? "BWdppYCOKf" : ""
+      }`}
+    >
+      <div
+        className="ijgePvHfdq"
+        onClick={() => {
+          if (showMenuChildren === data?.name) {
+            setShowMenuChildren(null)
+          } else {
+            setShowMenuChildren(data?.name)
+          }
+        }}
+      >
+        <span className="dvkRvnvuKA">{data?.name}</span>
+        <span className="mVtISIbDJs">
+          <DownOutlined style={{ fontSize: 12, verticalAlign: 0 }} />
+        </span>
+      </div>
+      {data?.children?.length && (
+        <div className={`FOsxgdKAoW`}>
+          <ul className="vPNTAJAHGT">
+            {data?.children.map((item, index) => {
+              return (
+                <li
+                  key={index}
+                  className="mmhezgHPkc"
+                  onClick={() => handleChangePage(item?.link)}
+                >
+                  <span>{item?.name}</span>
+                  <ArrowRightOutlined
+                    className="right-arrow"
+                    style={{ color: "red" }}
+                  />
+                </li>
+              )
+            })}
+          </ul>
         </div>
-        {
-          data?.children && data?.children.length > 0 ? <div className={`FOsxgdKAoW`}>
-            <ul className="vPNTAJAHGT">
-              {
-                data?.children.map((item) => {
-                  return (
-                    <li className="mmhezgHPkc"
-                      onClick={() => handleChangePage(item?.link)}>{item?.name}</li>
-                  )
-                })
-              }
-              {/* <li className="mmhezgHPkc"
-                onClick={() => handleChangePage('/product-integrated')}>Online-Offline Integrated</li>
-              <li className="mmhezgHPkc"
-                onClick={() => handleChangePage('/product-campaign')}>AI/Machine Learning Marketing Campaign Management</li>
-              <li className="mmhezgHPkc"
-                onClick={() => handleChangePage('/product-performance')}>Performance Dashboard</li> */}
-            </ul>
-          </div> : null
-        }
-
-      </li>
-    </>
+      )}
+    </li>
   )
 }

@@ -1,6 +1,5 @@
-import * as React from "react";
-import { Link } from "react-router-dom";
-import "./index.scss";
+import * as React from "react"
+import "./index.scss"
 
 function About() {
   return (
@@ -9,10 +8,10 @@ function About() {
         <h1>Trang About</h1>
       </main>
       <nav>
-        <Link to="/">Home</Link>
+        <a href="/">Home</a>
       </nav>
     </>
-  );
+  )
 }
 
-export default About;
+export default About

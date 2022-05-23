@@ -7,6 +7,7 @@
       }
       .slick-prev {
         left: 25px;
+        z-index: 99;
       }
 
       .slick-dots {
@@ -19,6 +20,7 @@
           height: 7.11px;
           background-color: #ffffff;
           border-radius: 50%;
+          vertical-align: middle;
         }
         li.slick-active {
           width: 10px;
@@ -107,7 +109,7 @@
       }
       .DCJiCEYvSD {
         width: 485px;
-
+        display: flex;
         @media (max-width: 1200px) {
           justify-content: center;
           width: calc(100% - 32px);

@@ -1,24 +1,26 @@
-import BannerHeader from "../Common/BannerHeader";
-import WhyProduct from "../Common/WhyProduct";
-import GetStart from "../Common/GetStart";
+import BannerHeader from "../Common/BannerHeader"
+import WhyProduct from "../Common/WhyProduct"
+import GetStart from "../Common/GetStart"
 
-import banner from '../../../assets/images/Product/Performance/banner-1.png'
-import new1 from '../../../assets/images/Product/Performance/new-1.png'
-import new2 from '../../../assets/images/Product/Performance/new-2.png'
-import new3 from '../../../assets/images/Product/Performance/new-3.png'
+import banner from "images/Product/Performance/banner-1.png"
+import new1 from "images/Product/Performance/new-1.png"
+import new2 from "images/Product/Performance/new-2.png"
+import new3 from "images/Product/Performance/new-3.png"
 
 export default function Performance() {
   return (
     <>
       <BannerHeader
         banner={banner}
-        logo={''}
-        listTitle={['Performance Dashboard']}
-        description={'Measure and magnify your impact with our power performance dashboard.'}
+        logo={""}
+        listTitle={["Performance Dashboard"]}
+        description={
+          "Measure and magnify your impact with our power performance dashboard."
+        }
       />
       <WhyProduct
-        title={'Shopper segmentation'}
-        marginTitle={'0 0 24px 0'}
+        title={"Shopper segmentation"}
+        marginTitle={"0 0 24px 0"}
         description={`Segment Shoppers (new/returning/lapsed/unique shopper) in each 
         sub-category across different platforms.	`}
         image={new1}
@@ -26,13 +28,13 @@ export default function Performance() {
       <WhyProduct
         title={`Best performing products 
         & categories`}
-        marginTitle={'0 0 24px 0'}
+        marginTitle={"0 0 24px 0"}
         description={`Include top categories, top subcategories, and top assortments	`}
         image={new2}
       />
       <WhyProduct
-        title={'Traffic & conversion'}
-        marginTitle={'0 0 24px 0'}
+        title={"Traffic & conversion"}
+        marginTitle={"0 0 24px 0"}
         description={`We provide visibility in terms of sales, shoppers, inventory, 
         traffic, and conversion.	`}
         image={new3}

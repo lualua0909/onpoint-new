@@ -17,8 +17,8 @@
       justify-content: space-between;
 
       .zGDsKXiVOp {
-        flex-basis: calc(33% - 15px);
-        margin: 0 5px;
+        flex-basis: calc(33% - 16px);
+        margin: 0 16px;
         .QypwTPNqoS {
           height: 196px;
           margin-bottom: 32px;
@@ -36,14 +36,14 @@
             .FXIQCzUdUS {
               width: 48px;
               height: 20px;
-              background: #ccf9d8;
+              background: #F1F1F1;
               font-weight: 400;
               font-size: 12px;
               line-height: 14px;
               display: flex;
               justify-content: center;
               align-items: center;
-              color: #00b031;
+              color: #777777;
             }
           }
           .mWlYDoscNs {
@@ -82,13 +82,6 @@
       }
     }
 
-    .slick-next {
-      right: 25px;
-    }
-    .slick-prev {
-      left: 25px;
-    }
-
     .slick-dots {
       position: absolute;
       left: 50%;
@@ -98,6 +91,7 @@
         height: 7.11px;
         background-color: #c2c2c2;
         border-radius: 50%;
+        vertical-align: middle;
       }
       li.slick-active {
         background-color: #cb222a;

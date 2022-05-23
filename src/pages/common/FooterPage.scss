@@ -1,6 +1,9 @@
 .jcgnCeVorZ {
   padding-top: 100px;
   padding-bottom: 85px;
+  a {
+    color: #313331;
+  }
   .SbnPNCEOwC {
     display: flex;
     justify-content: space-between;
@@ -42,6 +45,7 @@
         }
         .GPnrnrSPxQ {
           margin-right: 7px;
+          vertical-align: middle;
         }
       }
       .arneZmwYLE {
@@ -70,8 +74,30 @@
         .aqmosvhaDe {
           margin-right: 16px;
           cursor: pointer;
-          .StNtFzDeox {
+          .circle {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: solid #cb222a;
+            .icon {
+              position: relative;
+              font-size: 24px;
+              top: 50%;
+              left: 50%;
+              transform:translate(-50%,-50%);
+              color: #cb222a
+            }
           }
+          &:hover {
+            .circle {
+              border: solid #cb222a;
+              background-color: #cb222a;
+              .icon {
+                color: white
+              }
+            }
+          }
+
         }
       }
     }

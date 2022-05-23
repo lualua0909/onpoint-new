@@ -1,9 +1,9 @@
-import ContainerMain from "pages/common/ContainerMain";
-import icon4 from '../../../../assets/images/Product/Integrated/icon-4.png'
-import icon5 from '../../../../assets/images/Product/Integrated/icon-5.png'
-import iconDollar from '../../../../assets/images/Product/Integrated/icon-dollar.png'
-import iconOcto from '../../../../assets/images/Product/Integrated/icon-octo.png'
-import './Business.scss'
+import ContainerMain from "pages/common/ContainerMain"
+import icon4 from "images/Product/Integrated/icon-4.png"
+import icon5 from "images/Product/Integrated/icon-5.png"
+import iconDollar from "images/Product/Integrated/icon-dollar.png"
+import iconOcto from "images/Product/Integrated/icon-octo.png"
+import "./Business.scss"
 
 export default function Business() {
   return (
@@ -33,27 +33,65 @@ export default function Business() {
                 <div className="wKmcPquIAk">
                   <div className="wZgJmRTYpR">
                     <div className="wqWGEeuyVP">
-                      <div className="nsaBowjIRI">Self management & small WMS Solution</div>
-                      <div className="ZcPsNkIJyR">Basic features, low-cost, unscalable</div>
+                      <div className="nsaBowjIRI">
+                        Self management & small WMS Solution
+                      </div>
+                      <div className="ZcPsNkIJyR">
+                        Basic features, low-cost, unscalable
+                      </div>
                     </div>
                   </div>
                   <div className="IbXdiggGgw">
                     <ul className="NPTdKWMcCE">
-                      <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon5} className="YpmQpTetXG" /></li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon5} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon4} className="YpmQpTetXG" />
+                      </li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon5} className="YpmQpTetXG" />
+                      </li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon5} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC">Normal</li>
                       <li className="xQfqqWXoyC">Normal</li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon5} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon5} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC">Unreliable when scale up</li>
                       <li className="xQfqqWXoyC">Low</li>
-                      <li className="xQfqqWXoyC JEUdKojqbv"><img alt="" src={icon5} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC JEUdKojqbv">
+                        <img alt="" src={icon5} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC HKCPBIbYrQ">
                         <div className="ZnlsXoivfQ">
-                          <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
+                          <div className="LCcESLlexr YOZCCgreuB">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
                         </div>
                       </li>
                     </ul>
@@ -65,31 +103,72 @@ export default function Business() {
                       <div className="CVIxHmYRbJ">
                         <div className="ZPyYTcYqwl">
                           <div className="ZVzktPlDSh">
-                            <img alt="pXdYEnORCT" src={iconOcto} className="tviIaeWcIL" />
+                            <img
+                              alt="pXdYEnORCT"
+                              src={iconOcto}
+                              className="tviIaeWcIL"
+                            />
                           </div>
                         </div>
                       </div>
                       <div className="PYQEVuzkAS">
-                        <div className="ZcPsNkIJyR">Highly reliable & instantly scalable. Easy to use & proactive support. Mid-range price</div>
+                        <div className="ZcPsNkIJyR">
+                          Highly reliable & instantly scalable. Easy to use &
+                          proactive support. Mid-range price
+                        </div>
                       </div>
                     </div>
                     <div className="IbXdiggGgw">
                       <ul className="NPTdKWMcCE">
-                        <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
-                        <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                        <li className="xQfqqWXoyC">
+                          <img alt="" src={icon4} className="YpmQpTetXG" />
+                        </li>
+                        <li className="xQfqqWXoyC">
+                          <img alt="" src={icon4} className="YpmQpTetXG" />
+                        </li>
                         <li className="xQfqqWXoyC">High</li>
                         <li className="xQfqqWXoyC">Good</li>
                         <li className="xQfqqWXoyC">Easy</li>
-                        <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
-                        <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                        <li className="xQfqqWXoyC">
+                          <img alt="" src={icon4} className="YpmQpTetXG" />
+                        </li>
+                        <li className="xQfqqWXoyC">
+                          <img alt="" src={icon4} className="YpmQpTetXG" />
+                        </li>
                         <li className="xQfqqWXoyC">Quick</li>
-                        <li className="xQfqqWXoyC JEUdKojqbv"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                        <li className="xQfqqWXoyC JEUdKojqbv">
+                          <img alt="" src={icon4} className="YpmQpTetXG" />
+                        </li>
                         <li className="xQfqqWXoyC HKCPBIbYrQ">
                           <div className="ZnlsXoivfQ">
-                            <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                            <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                            <div className="LCcESLlexr"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                            <div className="LCcESLlexr"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
+                            <div className="LCcESLlexr YOZCCgreuB">
+                              <img
+                                alt=""
+                                className="geOGjZnaCh"
+                                src={iconDollar}
+                              />
+                            </div>
+                            <div className="LCcESLlexr YOZCCgreuB">
+                              <img
+                                alt=""
+                                className="geOGjZnaCh"
+                                src={iconDollar}
+                              />
+                            </div>
+                            <div className="LCcESLlexr">
+                              <img
+                                alt=""
+                                className="geOGjZnaCh"
+                                src={iconDollar}
+                              />
+                            </div>
+                            <div className="LCcESLlexr">
+                              <img
+                                alt=""
+                                className="geOGjZnaCh"
+                                src={iconDollar}
+                              />
+                            </div>
                           </div>
                         </li>
                       </ul>
@@ -100,26 +179,62 @@ export default function Business() {
                 <div className="wKmcPquIAk">
                   <div className="wZgJmRTYpR">
                     <div className="wqWGEeuyVP">
-                      <div className="nsaBowjIRI">Enterprise cloud ERP solutions</div>
+                      <div className="nsaBowjIRI">
+                        Enterprise cloud ERP solutions
+                      </div>
                     </div>
                   </div>
                   <div className="IbXdiggGgw">
                     <ul className="NPTdKWMcCE">
-                      <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon4} className="YpmQpTetXG" />
+                      </li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon4} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC">High</li>
                       <li className="xQfqqWXoyC">Good</li>
                       <li className="xQfqqWXoyC">Complex</li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon5} className="YpmQpTetXG" /></li>
-                      <li className="xQfqqWXoyC"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon5} className="YpmQpTetXG" />
+                      </li>
+                      <li className="xQfqqWXoyC">
+                        <img alt="" src={icon4} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC">Slow</li>
-                      <li className="xQfqqWXoyC JEUdKojqbv"><img alt="" src={icon4} className="YpmQpTetXG" /></li>
+                      <li className="xQfqqWXoyC JEUdKojqbv">
+                        <img alt="" src={icon4} className="YpmQpTetXG" />
+                      </li>
                       <li className="xQfqqWXoyC HKCPBIbYrQ">
                         <div className="ZnlsXoivfQ">
-                          <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
-                          <div className="LCcESLlexr YOZCCgreuB"><img alt="" className="geOGjZnaCh" src={iconDollar} /></div>
+                          <div className="LCcESLlexr YOZCCgreuB">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr YOZCCgreuB">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr YOZCCgreuB">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
+                          <div className="LCcESLlexr YOZCCgreuB">
+                            <img
+                              alt=""
+                              className="geOGjZnaCh"
+                              src={iconDollar}
+                            />
+                          </div>
                         </div>
                       </li>
                     </ul>
