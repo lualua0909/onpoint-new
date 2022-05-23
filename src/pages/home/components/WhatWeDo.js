@@ -33,28 +33,30 @@ export default function WhatWeDo() {
     <>
       <div className="veojzQjoSI">
         <div className="cXjKWozutF">
-          <div className="KbFTqrRWSD">
-            <img alt="" className="uWXNYLrCyZ" src={image1} />
-          </div>
-          <ContainerMain>
-            <div className="iNzXenhHCj">
-              <div className="kQFHTLqPss">
-                <div className="YYQohNmAHv">What We Do</div>
-                <div className="fcCHdHMrJE">
-                  {contents.map(content => {
-                    return (
-                      <div className="StjvRqrbev" key={content.id}>
-                        <div className="NIIdwOtIXI">
-                          <div className="IydGkLszEC">{content.title}</div>
-                          <div className="aQkWOzxVNg">{content.content}</div>
+          <div className="rxsdilmsao">
+            <div className="KbFTqrRWSD">
+              <img alt="" className="uWXNYLrCyZ" src={image1} />
+            </div>
+            <ContainerMain>
+              <div className="iNzXenhHCj">
+                <div className="kQFHTLqPss">
+                  <div className="YYQohNmAHv">What We Do</div>
+                  <div className="fcCHdHMrJE">
+                    {contents.map(content => {
+                      return (
+                        <div className="StjvRqrbev" key={content.id}>
+                          <div className="NIIdwOtIXI">
+                            <div className="IydGkLszEC">{content.title}</div>
+                            <div className="aQkWOzxVNg">{content.content}</div>
+                          </div>
                         </div>
-                      </div>
-                    )
-                  })}
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
-            </div>
-          </ContainerMain>
+            </ContainerMain>
+          </div>
         </div>
       </div>
     </>
