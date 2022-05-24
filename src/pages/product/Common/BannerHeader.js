@@ -1,6 +1,8 @@
 import "./BannerHeader.scss"
+import ContainerMain from "src/pages/common/ContainerMain"
 
 export default function BannerHeader({
+  breadcum = '',
   banner,
   logo,
   listTitle = [],
@@ -8,6 +10,11 @@ export default function BannerHeader({
 }) {
   return (
     <div className="RNDniyVkqZ" style={{ backgroundImage: `url(${banner})` }}>
+      <div className="vinzgxtase">
+        <ContainerMain>
+          <div className="lhdxmwizjl">{breadcum}</div>
+        </ContainerMain>
+      </div>
       <div className="zbliJAztBb">
         {logo ? (
           <div className="wmPLOxTAul">

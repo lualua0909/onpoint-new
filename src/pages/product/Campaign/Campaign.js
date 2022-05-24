@@ -17,6 +17,7 @@ export default function Campaign() {
   return (
     <>
       <BannerHeader
+        breadcum="Home/ Products/ AI/Machine Learning Data-driven Solutions"
         banner={banner}
         logo={""}
         listTitle={["AI/Machine Learning", "Marketing Campaign Management"]}

@@ -23,6 +23,7 @@ export default function Store() {
     <>
       <div>
         <BannerHeader
+          breadcum="Home/ Products/ E-commerce Store Management"
           banner={banner}
           logo={logoBanner1}
           listTitle={["E-Commerce Store Management"]}

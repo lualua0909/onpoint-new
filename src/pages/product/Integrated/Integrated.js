@@ -16,6 +16,7 @@ export default function Integrated() {
   return (
     <>
       <BannerHeader
+        breadcum="Home/ Products/ Online-Offline Integrated Order Management"
         banner={banner}
         logo={logoBanner1}
         listTitle={["Online-Offline Integrated", "Order Management"]}

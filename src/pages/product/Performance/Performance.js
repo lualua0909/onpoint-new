@@ -11,6 +11,7 @@ export default function Performance() {
   return (
     <>
       <BannerHeader
+        breadcum="Home/ Products/ Performance Dashboard"
         banner={banner}
         logo={""}
         listTitle={["Performance Dashboard"]}
