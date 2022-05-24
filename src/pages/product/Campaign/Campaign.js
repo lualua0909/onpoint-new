@@ -2,6 +2,7 @@ import BannerHeader from "../Common/BannerHeader"
 import WhyProduct from "../Common/WhyProduct"
 
 import banner from "images/Product/Campaign/banner-1.png"
+import logoBanner1 from "images/Product/Campaign/logo-banner-1.png"
 import icon1 from "images/Product/Campaign/icon-1.png"
 import image3 from "images/Product/Campaign/image-3.png"
 import image4 from "images/Product/Campaign/image-4.png"
@@ -19,7 +20,7 @@ export default function Campaign() {
       <BannerHeader
         breadcum="Home/ Products/ AI/Machine Learning Data-driven Solutions"
         banner={banner}
-        logo={""}
+        logo={logoBanner1}
         listTitle={["AI/Machine Learning", "Marketing Campaign Management"]}
         description={""}
       />

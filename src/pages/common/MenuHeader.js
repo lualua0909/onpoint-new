@@ -23,10 +23,10 @@ const menu = [
     name: "Services",
     link: "",
     children: [
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
+      { name: "E-marketing Management			", link: "/service-marketing" },
+      { name: "E-store Management", link: "/service-store" },
+      { name: "Shopper Engagement", link: "/service-engagement" },
+      { name: "Omni-channel Logistics & Fulfilment", link: "/service-logistics" },
     ],
   },
   {
