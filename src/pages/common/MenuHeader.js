@@ -33,30 +33,25 @@ const menu = [
     name: "Channels",
     link: "",
     children: [
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
+      { name: "Marketplace", link: "/" },
+      { name: "Social Commerce", link: "/" },
+      { name: "Brand.com", link: "/" },
     ],
   },
   {
     name: "Clients & Partners",
     link: "",
-    children: [
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-    ],
+    children: [],
   },
   {
     name: "Company",
     link: "",
     children: [
+      { name: "About", link: "/" },
       { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
-      { name: "Example", link: "/" },
+      { name: "Career", link: "/" },
+      { name: "Media", link: "/" },
+      { name: "Blog", link: "/" },
     ],
   },
 ]
