@@ -14,9 +14,18 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      
       .VaquxsnUKk {
         flex-basis: calc(33% - 15px);
         margin-bottom: 35px;
+        min-width: 351px;
+
+        @media (max-width: 700px) {
+          width: calc(100%);
+          min-width: unset;
+          flex-basis: 100%;
+        }
+
         .vQcAdXDytg {
           width: calc(100% - 31px);
           height: 197px;

@@ -11,6 +11,10 @@
     }
     .rBAxnbCWtS {
       display: flex;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
       .juLRYOAlGI {
         flex-basis: 50%;
         padding-top: 31px;

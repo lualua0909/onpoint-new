@@ -13,14 +13,30 @@
     .WpBqTKomku {
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
+
       .kzsRZGbSsj {
         flex-basis: 33%;
         border-right: 1px solid #eeeeee;
         min-height: 325px;
         padding-top: 41px;
 
+        @media (max-width: 1200px) {
+          border-right: 0;
+          border-bottom: 1px solid #eeeeee;
+          min-height: auto;
+          padding-bottom: 32px;
+        }
+
         &:last-child {
           border-right: 0;
+
+          @media (max-width: 1200px) {
+            border-bottom: 0;
+          }
         }
         .jNAByrdmhI {
           margin-bottom: 29px;

@@ -16,7 +16,11 @@
   color: #313331;
   margin-bottom: 169px;
 
+  @media (max-width: 1200px) {
+    margin-bottom: 79px;
+  }
+
   span {
-    color: #CB222A;
+    color: #cb222a;
   }
 }
