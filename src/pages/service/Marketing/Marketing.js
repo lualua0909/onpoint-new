@@ -1,5 +1,6 @@
 import BannerHeader from "pages/product/Common/BannerHeader"
 import WhyProduct from "pages/product/Common/WhyProduct"
+import WhatWeDo from "../Common/WhatWeDo"
 
 import banner from "images/Service/Marketing/banner-1.png"
 import GetStart from "pages/product/Common/GetStart"
@@ -7,8 +8,8 @@ import WhyNew from "pages/product/Common/WhyNew"
 import new1 from "images/Service/Marketing/new-1.png"
 import new2 from "images/Service/Marketing/new-2.png"
 import new3 from "images/Service/Marketing/new-3.png"
+import image1 from "images/Home/WhatWeDo/image-1.png"
 
-import WhatWeDo from "../Common/WhatWeDo"
 
 import "./Marketing.scss"
 
@@ -45,7 +46,7 @@ export default function Marketing() {
     <>
       <div>
         <BannerHeader
-          breadcum="Home/ Products/ E-commerce Store Management"
+          breadcum="Home/ Services/ AI/Machine Learning Data-driven Solutions"
           banner={banner}
           logo={''}
           listTitle={["E-marketing Management"]}
@@ -62,7 +63,7 @@ export default function Marketing() {
            advertising media channels and optimize process to achieve sustainable business goals.`}
           image={''}
         />
-        <WhatWeDo contents={contents} />
+        <WhatWeDo contents={contents} image={image1} />
         <WhyNew
           title={`Creative & Content Production`}
           description={`We develop scalable content marketing strategies for every stage of your funnel and 

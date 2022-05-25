@@ -5,7 +5,6 @@ import WhatWeDoV2 from 'pages/service/Common/WhatWeDoV2'
 import LogoFooter from 'pages/service/Common/LogoFooter'
 
 import banner from "images/Service/Store/banner-1.png"
-import logoBanner1 from "images/Product/Store/logo-banner-1.png"
 
 import new1 from "images/Service/Store/new-1.png"
 import new2 from "images/Service/Store/new-2.png"
@@ -44,12 +43,14 @@ export default function Store() {
     <>
       <div>
         <BannerHeader
-          breadcum="Home/ Services / E-store Management"
+          breadcum="Home/ Services / E-store Management		"
           banner={banner}
-          logo={logoBanner1}
+          logo={''}
           listTitle={["E-store Management"]}
           description={
-            "We excel at marketplace tools to generate leads, consistently updating content to keep your audience buzzing about your brand, while leveraging data to execute strategies that would lead to higher conversion.		"
+            `We excel at marketplace tools to generate leads, consistently updating content to keep 
+            your audience buzzing about your brand, while leveraging data to execute strategies that
+             would lead to higher conversion.		`
           }
         />
         <WhyNew
