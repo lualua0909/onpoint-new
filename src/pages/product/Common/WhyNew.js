@@ -1,13 +1,14 @@
 import ContainerMain from "src/pages/common/ContainerMain"
 import "./WhyNew.scss"
 
-export default function WhyNew({ list }) {
+export default function WhyNew({ list, title, description }) {
   return (
     <>
       <div className="snElGSLNmQ">
         <ContainerMain>
           <div className="NnSxBIsuoI">
-            <div className="MMfVvhsLVK">What We Deliver</div>
+            <div className="MMfVvhsLVK">{title}</div>
+            <div className="hctcwvbzis">{description}</div>
             <div className="XTExbngyLb">
               {list
                 ? list.map((item, key) => {

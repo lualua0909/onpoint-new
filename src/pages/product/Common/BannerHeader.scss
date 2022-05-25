@@ -50,6 +50,11 @@
       line-height: 24px;
       text-align: center;
       color: #ffffff;
+      white-space: break-spaces;
+
+      @media (max-width: 700px) {
+        white-space: unset;
+      }
     }
   }
 }

@@ -63,6 +63,7 @@ export default function Store() {
           ]}
         />
         <WhyNew
+          title={`What We Deliver`}
           list={[
             {
               image: new1,
