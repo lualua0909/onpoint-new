@@ -32,7 +32,6 @@ export default function Logistics() {
       />
       <div className="hkpaibajrw">
         <NewRow
-          paddingText={` 0 0 0 65px`}
           image={new1}
           title="B2B/B2C Warehousing"
           more="Stay ahead in competition"
@@ -42,7 +41,6 @@ functionality and scalable in nature, thus catering to end-to-end
 warehousing needs.`} />
         <NewRow
           position={'right'}
-          paddingText={` 0 65px 0 0`}
           image={new2}
           title="Customized Fulfilment & Packaging"
           more="Be unique with sustainable growth"
@@ -54,7 +52,6 @@ We strictly follow operational objectives set by marketplace and
 ensure the lead time could be met. In terms of special packaging, 
 we could optimize fulfilment cost due to our large-scale business.`} />
         <NewRow
-          paddingText={` 0 0 0 65px`}
           image={new3}
           title="Multi Warehouses & Last Mile Solution"
           more="Be faster, transparent, and efficient"

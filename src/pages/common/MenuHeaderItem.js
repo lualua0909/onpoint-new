@@ -35,7 +35,7 @@ export default function MenuHeaderItem({
           <DownOutlined style={{ fontSize: 12, verticalAlign: 0 }} />
         </span>
       </div>
-      {data?.children?.length && (
+      {data?.children?.length ? (
         <div className={`FOsxgdKAoW`}>
           <ul className="vPNTAJAHGT">
             {data?.children.map((item, index) => {
@@ -55,7 +55,7 @@ export default function MenuHeaderItem({
             })}
           </ul>
         </div>
-      )}
+      ) : null}
     </li>
   )
 }

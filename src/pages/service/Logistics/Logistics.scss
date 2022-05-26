@@ -1,4 +1,9 @@
 .hkpaibajrw {
   padding-top: 100px;
   padding-bottom: 168px;
+
+  @media (max-width: 1200px) {
+    padding-top: 50px;
+    padding-bottom: 78px;
+  }
 }

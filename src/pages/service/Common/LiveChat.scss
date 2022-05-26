@@ -2,6 +2,11 @@
   padding-top: 104px;
   padding-bottom: 157px;
 
+  @media (max-width: 700px) {
+    padding-top: 54px;
+  padding-bottom: 77px;
+  }
+
   .wwzdjczuoz {
     .pfmadssorp {
       font-weight: 500;
@@ -29,6 +34,10 @@
         top: 60px;
         z-index: 1;
         .ogqhdosiss {
+          @media (max-width: 1200px) {
+            max-width: 557px;
+            width: 100%;
+          }
         }
       }
       .cjzlmcwlag {
@@ -38,6 +47,17 @@
         position: relative;
         z-index: 3;
         padding: 16px 40px;
+
+        @media (max-width: 1200px) {
+          width: 100%;
+          max-width: 616px;
+          padding: 16px 12px;
+        }
+
+        @media (max-width: 700px) {
+          width: calc(100% - 32px);
+          margin: auto;
+        }
 
         .azxnxwmvlf {
           font-weight: 500;

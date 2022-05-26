@@ -1,12 +1,36 @@
 .qaawmpstdv {
   margin-bottom: 100px;
 
+  @media (max-width: 1200px) {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7e807e;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
   .oflhydofzh {
     display: flex;
+    
+    @media (max-width: 1200px) {
+      display: block;
+    }
     .cfrrviuodn {
+      &.tuqbrotgqq {
+        padding-left: 65px;
+
+        @media (max-width: 1200px) {
+          padding: 32px 24px;
+        }
+      }
+      &.nxhztlreor {
+        padding-right: 65px;
+
+        @media (max-width: 1200px) {
+          padding: 32px 24px;
+        }
+      }
       .frrtcscsui {
         font-weight: 500;
         font-size: 32px;
@@ -29,8 +53,14 @@
       }
     }
     .vnlquwrayu {
+      @media (max-width: 1200px) {
+        display: block;
+      }
     }
     .udncvqnrno {
+      @media (max-width: 1200px) {
+        display: block;
+      }
     }
   }
 }
