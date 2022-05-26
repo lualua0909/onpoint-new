@@ -3,7 +3,7 @@ import image2 from "images/Product/Campaign/image-2.png"
 
 import "./ModelConcept.scss"
 
-export default function ModelConcept() {
+export default function ModelConcept2() {
   return (
     <>
       <div className="TgCFPpSuJm">

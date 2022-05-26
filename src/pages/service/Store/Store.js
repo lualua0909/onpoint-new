@@ -79,7 +79,7 @@ export default function Store() {
           ]}
         />
         <WhatWeDoV2 contents={contents} image={imageBanner1} />
-        <LogoFooter title="Marketplace Platform Partners" description="We help you tap into the growth potential of the leading marketplace platforms." list={[
+        <LogoFooter title="Marketplace Platforms Partner" description="We help you tap into the growth potential of the leading marketplace platforms." list={[
           logo1,
           logo2,
           logo3,

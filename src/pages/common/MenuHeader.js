@@ -33,9 +33,9 @@ const menu = [
     name: "Channels",
     link: "",
     children: [
-      { name: "Marketplace", link: "/" },
-      { name: "Social Commerce", link: "/" },
-      { name: "Brand.com", link: "/" },
+      { name: "Marketplace", link: "/channels-marketplace" },
+      { name: "Social Commerce", link: "/channels-social-commerce" },
+      { name: "Brand.com", link: "/channels-brand" },
     ],
   },
   {
