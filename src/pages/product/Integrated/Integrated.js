@@ -2,6 +2,7 @@ import BannerHeader from "../Common/BannerHeader"
 import WhyProduct from "../Common/WhyProduct"
 import WhyOcto from "../Common/WhyOcto"
 import Business from "./components/Business"
+import Deliver from "./components/Deliver"
 import GetStart from "../Common/GetStart"
 
 import banner from "images/Product/Integrated/banner-1.png"
@@ -52,6 +53,7 @@ export default function Integrated() {
           },
         ]}
       />
+      <Deliver />
 
       <WhyProduct
         title={"How It Works"}
