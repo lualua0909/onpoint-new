@@ -5,6 +5,10 @@
     justify-content: center;
     margin-bottom: 57px;
 
+    @media (max-width: 1200px) {
+      margin-bottom: 17px;
+    }
+
     .KHLOgJdVEA {
       width: 123px;
       font-weight: 400;
@@ -40,12 +44,35 @@
     .MfMKETAyeK {
       display: flex;
       margin-bottom: 95px;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
+
       .YDUqZVaEXx {
         flex-basis: 513px;
+
+        @media (max-width: 1200px) {
+          text-align: center;
+        }
+
+        @media (max-width: 700px) {
+          text-align: center;
+        }
+        .REJCdcJGLC {
+          @media (max-width: 700px) {
+            width: 100%;
+          }
+        }
       }
       .EouhQVFgnk {
         flex-basis: calc(100% - 513px);
         padding-left: 56px;
+
+        @media (max-width: 1200px) {
+          padding-left: 0;
+        }
+
         .xoMfeDjLfZ {
           display: flex;
           justify-content: space-between;

@@ -1,5 +1,10 @@
 .nwcjbovxvs {
   padding-top: 160px;
+
+  @media (max-width: 1200px) {
+    padding-top: 50px;
+  }
+
   .tsjsriqrqj {
     .dpgzikpmfu {
       font-weight: 500;
@@ -26,6 +31,11 @@
     .ceozyvcdlh {
       display: flex;
       align-items: flex-end;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
+
       .brbcjxqmdo {
         .ycqkfhvkmn {
           font-weight: 800;
@@ -52,7 +62,14 @@
         }
       }
       .hbgldslfxb {
+        @media (max-width: 1200px) {
+          text-align: center;
+        }
         .eowtdhlhvl {
+          @media (max-width: 1200px) {
+            max-width: 442px;
+            width: 100%;
+          }
         }
       }
     }
@@ -66,9 +83,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media (max-width: 1200px) {
+    }
+
     .jljbxsxkgo {
       flex-basis: calc(33% - 15px);
       margin-bottom: 36px;
+
+      @media (max-width: 1200px) {
+        flex-basis: calc(50% - 15px);
+      }
+
+      @media (max-width: 700px) {
+        flex-basis: calc(100%);
+      }
 
       &.mdosmursmc {
         flex-basis: calc(33% - 15px);

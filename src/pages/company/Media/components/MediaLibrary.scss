@@ -3,6 +3,10 @@
   padding-bottom: 204px;
   .uHvSGLQfaY {
     display: flex;
+    
+    @media (max-width: 1200px) {
+      display: block;
+    }
     .ZOgxSUBaXc {
       flex-basis: 540px;
       .GwZoEUfQwR {

@@ -1,6 +1,8 @@
 .jvqydtlwmi {
   padding-top: 108px;
-  
+  @media (max-width: 1200px) {
+    padding-top: 38px;
+  }
   .ekeupmfcjh {
     position: relative;
     margin-bottom: 250px;
@@ -8,12 +10,22 @@
     .aarvervebz {
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
       .jqqjzvroem {
         flex-basis: calc(556px);
         .ilgwvxaowu {
           .ziiswpbgbf {
             height: 527px;
             width: 705px;
+
+            @media (max-width: 1200px) {
+              width: 100%;
+              max-width: 705px;
+              height: auto
+            }
           }
         }
       }
@@ -52,6 +64,7 @@
       @media (max-width: 1200px) {
         display: block;
         height: auto;
+        position: unset;
       }
       .nltyhjegpm {
         padding: 31px 27px;

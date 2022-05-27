@@ -20,8 +20,17 @@
     .sUvsIGbbIS {
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 1200px) {
+        display: block;
+      }
       .JwsiuEWwAN {
         flex-basis: calc(33% - 15px);
+
+        @media (max-width: 1200px) {
+          margin-bottom: 30px;
+        }
+
         .pfAFOmkfnU {
           height: 196px;
           margin-bottom: 32px;

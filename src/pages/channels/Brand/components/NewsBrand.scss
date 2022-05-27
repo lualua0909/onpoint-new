@@ -24,14 +24,29 @@
         align-items: center;
         margin-bottom: 100px;
 
+        @media (max-width: 1200px) {
+          display: block;
+          width: calc(100% - 32px);
+          margin: 30px auto 30px auto;
+        }
+
         &:last-child {
           margin-bottom: 0;
         }
 
         .qenwmwtibd {
+          @media (max-width: 1200px) {
+            text-align: center;
+          }
+
           .mjxsjbzjkq {
             width: 475px;
             height: 271px;
+            @media (max-width: 1200px) {
+              width: 100%;
+              max-width: 475px;
+              height: auto;
+            }
           }
         }
 
@@ -61,4 +76,8 @@
 
 .tybnthcjgj {
   padding-left: 65px;
+
+  @media (max-width: 1200px) {
+    padding-left: 0;
+  }
 }

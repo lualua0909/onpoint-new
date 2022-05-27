@@ -1,4 +1,9 @@
 .SPhJSjiKjF {
+  @media (max-width: 1200px) {
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+
   .JZxPMGRqig {
     font-weight: 800;
     font-size: 32px;
@@ -6,6 +11,10 @@
     text-align: right;
     color: #313331;
     margin-bottom: 26px;
+
+    @media (max-width: 1200px) {
+      text-align: left;
+    }
   }
   .mBRglNsUaH {
     .WrVuIYPtRQ {

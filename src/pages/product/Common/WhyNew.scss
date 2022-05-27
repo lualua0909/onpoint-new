@@ -23,6 +23,11 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      @media (max-width: 1200px) {
+        display: block;
+        width: calc(100% - 32px);
+        margin: auto;
+      }
 
       .VaquxsnUKk {
         flex-basis: calc(33% - 15px);

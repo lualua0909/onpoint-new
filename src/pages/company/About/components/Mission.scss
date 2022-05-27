@@ -10,11 +10,28 @@
       justify-content: flex-end;
       padding-top: 101px;
       padding-bottom: 299px;
+
+      @media (max-width: 1200px) {
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
       .ovcnynaaht {
         position: absolute;
         bottom: 0;
         left: 0;
+
+        @media (max-width: 1200px) {
+          position: unset;
+          text-align: center;
+        }
         .cfxptyiduo {
+
+          @media (max-width: 1200px) {
+            max-width: 895px;
+            width: 100%;
+          }
         }
       }
 
