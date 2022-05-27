@@ -47,11 +47,11 @@ const menu = [
     name: "Company",
     link: "",
     children: [
-      { name: "About", link: "/" },
-      { name: "Example", link: "/" },
+      { name: "About", link: "/company-about" },
       { name: "Career", link: "/" },
-      { name: "Media", link: "/" },
-      { name: "Blog", link: "/" },
+      { name: "Media", link: "/company-media" },
+      { name: "Blog", link: "/company-blog" },
+      { name: "Job", link: "/company-job" },
     ],
   },
 ]
