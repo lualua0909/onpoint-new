@@ -1,6 +1,8 @@
 import ContainerMain from "pages/common/ContainerMain"
 
 import user3 from "images/Company/Job/user-3.png"
+import icon3 from "images/Company/Job/icon-3.png"
+import icon4 from "images/Company/Job/icon-4.png"
 
 import { RightOutlined, LeftOutlined } from "@ant-design/icons"
 import Slider from "react-slick";
@@ -30,7 +32,8 @@ export default function OurBenefits() {
       />
     )
   }
-
+  icon3
+  icon4
   var settings = {
     dots: true,
     infinite: true,
@@ -39,8 +42,8 @@ export default function OurBenefits() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <img src={icon4} alt="" className="hvLesYaiKp" />,
+    prevArrow: <img src={icon3} alt="" className="hvLesYaiKp" />,
   }
 
   return (
@@ -88,7 +91,7 @@ export default function OurBenefits() {
       </div>
       <div className="MsCexzJyID">
         <div className="oTdptEfzsb">
-          <Slider className="uSDdEFzHYz" {...settings}>
+          <Slider className="hHRRVmYDUf" {...settings}>
             {
               [0, 1, 2, 3, 4, 5].map((item) => {
                 return (
