@@ -22,7 +22,7 @@ export default function JobOpen() {
               {
                 [0, 1, 2, 3].map((item) => {
                   return (
-                    <div className="OUNLWCOaTA">
+                    <div className="OUNLWCOaTA" key={item}>
                       <div className="guTplusTYG">
                         <div className="pkXzdQXCBn">Brand Manager</div>
                         <div className="KdKFAxfitq">
