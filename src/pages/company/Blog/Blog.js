@@ -1,5 +1,7 @@
 import BannerHeader from "pages/product/Common/BannerHeader"
 import GetStart from "pages/product/Common/GetStart"
+import Tabnew from "pages/company/Blog/components/Tabnew"
+import ListArticle from "pages/company/Blog/components/ListArticle"
 
 import banner from "images/Company/Blog/banner-1.png"
 
@@ -17,6 +19,7 @@ e-commerce with us. ​`
         }
       />
       <Tabnew />
+      <ListArticle />
       <GetStart />
     </>
   )
