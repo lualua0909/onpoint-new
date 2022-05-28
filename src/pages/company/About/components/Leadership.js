@@ -1,7 +1,18 @@
 import ContainerMain from "pages/common/ContainerMain"
+import { Popover } from 'antd'
 
 import user1 from 'images/Company/About/user-1.png'
 import user2 from 'images/Company/About/user-2.png'
+import user3 from 'images/Company/About/user-3.png'
+import user4 from 'images/Company/About/user-4.png'
+import user5 from 'images/Company/About/user-5.png'
+import user6 from 'images/Company/About/user-6.png'
+import user7 from 'images/Company/About/user-7.png'
+import user8 from 'images/Company/About/user-8.png'
+import user9 from 'images/Company/About/user-9.png'
+import user10 from 'images/Company/About/user-10.png'
+import user11 from 'images/Company/About/user-11.png'
+import user12 from 'images/Company/About/user-12.png'
 
 import './Leadership.scss'
 
@@ -9,46 +20,106 @@ const listUser = [
   {
     image: user2,
     name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    position: 'Chief Business Officer',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
+    image: user3,
     name: 'Chin Wee Tee',
-    position: 'COO'
+    position: 'COO',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    image: user4,
+    name: 'Le Minh Duy',
+    position: 'Chief Technology Officer',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    image: user5,
+    name: 'Tran Quang Thach',
+    position: 'Chief of Staff',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    image: user6,
+    name: 'Doan Nguyen Da Huong',
+    position: 'Business Development Director',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    image: user7,
+    name: 'Tran Thi Tuong Van',
+    position: 'Business Development Director',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
+    image: user8,
+    name: 'Peter Kua',
+    position: 'Head of Data & Analytics Centre of Excellence',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
   },
   {
-    image: user2,
-    name: 'Nguyen Huy Hoang',
-    position: 'Chief Business Officer'
-  }
+    image: user9,
+    name: 'Tran Minh Duy',
+    position: 'Head of Business Development',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
+  },
+  {
+    image: user10,
+    name: 'Nguyen Le Hung',
+    position: 'Head of Strategy',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
+  },
+  {
+    image: user11,
+    name: 'Nguyen Thi Hong Nhung',
+    position: 'Associate Commercial Director',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
+  },
+  {
+    image: user12,
+    name: 'Huynh Thuy Quynh Giao',
+    position: 'Commercial Director',
+    description: `Quang is the Founder and CEO of OnPoint. Prior to OnPoint, Quang worked as the Chief Commercial Officer at Lazada Vietnam since 2014. Previously, Quang was also an Executive Assistant for Vingroup Chairman. 
+
+    Quang graduated from Reed College (USA), and started his career at McKinsey as a management consultant, advising various businesses in retail, banking, energy sector across Vietnam, Indonesia, and Singapore.`,
+  },
 ]
 
 export default function Leadership() {
+
+  const hoverDetail = (name, position, description) => {
+    return (
+      <>
+        <div className="dffcWxOeNW">
+          <div className="MQpcLRQujV">{name}</div>
+          <div className="WkmrRrGpWz">{position}</div>
+          <div className="yLQguCYMWv">{description}</div>
+        </div>
+      </>
+    )
+  }
   return (
     <>
       <div className="nwcjbovxvs">
@@ -88,7 +159,11 @@ export default function Leadership() {
               listUser.map((item) => {
                 return (
                   <div className="jljbxsxkgo">
-                    <div className="eszpdechnj"><img src={item?.image} className="ublinznkzk" alt="" /></div>
+                    <div className="eszpdechnj">
+                      <Popover content={hoverDetail(item?.name, item.position, item.description)} placement="bottom" title="">
+                        <img src={item?.image} className="ublinznkzk" alt="" />
+                      </Popover>
+                    </div>
                     <div className="ukfgnyzugv">
                       <div className="vynjksrnfx">{item?.name}</div>
                       <div className="hvweqszmiv">{item?.position}</div>
@@ -101,7 +176,7 @@ export default function Leadership() {
             <div className="jljbxsxkgo mdosmursmc"></div>
           </div>
         </ContainerMain>
-      </div>
+      </div >
     </>
   )
 }

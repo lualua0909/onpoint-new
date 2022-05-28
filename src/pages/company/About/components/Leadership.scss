@@ -135,3 +135,39 @@
     }
   }
 }
+
+.ant-popover-content {
+  width: 351px;
+  margin: auto;
+
+  @media (max-width: 700px) {
+    max-width: 351px;
+    width: 100%;
+  }
+}
+
+.dffcWxOeNW {
+  .MQpcLRQujV {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #313331;
+    margin-bottom: 6px;
+  }
+  .WkmrRrGpWz {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 12px;
+  }
+  .yLQguCYMWv {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: #777777;
+  }
+}

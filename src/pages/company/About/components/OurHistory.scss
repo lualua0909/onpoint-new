@@ -77,7 +77,7 @@
 
               .xsabzeivxe {
                 position: absolute;
-                top: 85px;
+                top: 65px;
                 left: -11px;
 
                 @media (max-width: 1200px) {
@@ -96,7 +96,7 @@
               }
               .kybwdzbrau {
                 position: absolute;
-                top: 90px;
+                top: 88px;
                 right: calc(100% - 11px);
 
                 @media (max-width: 1200px) {
@@ -123,6 +123,7 @@
               height: 19px;
               border-radius: 50%;
               border: 2px solid #cb222a;
+              background-color: #ffffff;
             }
             .gvmybiarut {
               font-style: normal;
@@ -133,6 +134,12 @@
               align-items: center;
               text-align: right;
               color: #cb222a;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              background-color: #ffffff;
+
+              @media screen {
+              }
 
               @media (max-width: 1200px) {
               }
@@ -185,6 +192,30 @@
 .szznqfqcxb {
   background: #f8f8f8;
   padding: 26px 34px;
+  position: relative;
+  .YtjyEROGqS {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+    position: absolute;
+    right: calc(100% - 2px);
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  .CcfCKatidT {
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+    position: absolute;
+    left: calc(100% - 2px);
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
   .unwgbpaqpy {
     margin-bottom: 32px;
 

@@ -6,6 +6,7 @@
   "author": "OnPoint Tech Team",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.6",
     "gatsby": "^4.14.1",
     "gatsby-plugin-gatsby-cloud": "^4.14.0",
     "gatsby-plugin-image": "^2.14.1",

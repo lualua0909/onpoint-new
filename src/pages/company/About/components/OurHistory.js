@@ -1,5 +1,8 @@
 import ContainerMain from "pages/common/ContainerMain"
 
+import arrowRight from 'images/Company/About/icon-arrow-right.png'
+import arrowLeft from 'images/Company/About/icon-arrow-left.png'
+
 import './OurHistory.scss'
 
 const list = [
@@ -56,9 +59,11 @@ const list = [
 ]
 
 export default function OurHistory() {
-  const boxItem = (item2) => {
+  const boxItem = (item2, key) => {
     return (
       <div className="szznqfqcxb">
+        {key % 2 === 0 ? <img src={arrowLeft} alt="" className="YtjyEROGqS" /> : null}
+        {key % 2 !== 0 ? <img src={arrowRight} alt="" className="CcfCKatidT" /> : null}
         {
           item2.contents.map((item3, key3) => {
             return (
@@ -90,7 +95,7 @@ export default function OurHistory() {
                         item.list.map((item2, key) => {
                           return <div className="imxyongbfw">
                             <div className="wicbigxykt">
-                              {key % 2 !== 0 ? boxItem(item2) : null}
+                              {key % 2 !== 0 ? boxItem(item2, key) : null}
                             </div>
                             <div className="otgjiykfho">
                               <div className="hpfiyhlmuz"></div>
@@ -100,7 +105,7 @@ export default function OurHistory() {
                               </div>
                             </div>
                             <div className="qsrkbcmykv">
-                              {key % 2 === 0 ? boxItem(item2) : null}
+                              {key % 2 === 0 ? boxItem(item2, key) : null}
                             </div>
                           </div>
                         })
