@@ -18,6 +18,12 @@
       text-align: center;
       color: #cb222a;
       margin-bottom: 40px;
+
+      @media (max-width: 1200px) {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 32px;
+      }
     }
     .EmyHwIHVOc {
       display: flex;
@@ -72,7 +78,7 @@
               line-height: 19px;
               color: #777777;
               margin-right: 11px;
-              
+
               .usQCVBoXFX {
                 margin-right: 6px;
               }

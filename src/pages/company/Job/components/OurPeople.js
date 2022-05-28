@@ -10,7 +10,7 @@ export default function OurPeople() {
     <>
       <div className="xjYpCNKKDX">
         <ContainerMain>
-          <div className="NKmOikBgUS">
+          <div className="sDIJBqbWSL">
             <div className="sZESHENPLM">Our People</div>
             <div className="NVhUBVtJhj">
               <div className="PZFZcdcvaM">
