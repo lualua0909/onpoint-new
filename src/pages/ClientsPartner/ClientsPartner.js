@@ -157,13 +157,13 @@ export default function ClientsPartner() {
   return (
     <>
       <BannerHeader
-        breadcum="Home/ Company/ Blogs"
+        breadcum="Home/ Clients & Partners"
         banner={banner}
         logo={''}
-        listTitle={["Blogs"]}
+        listTitle={["Clients & Partners"]}
         description={
-          `Here you can get the latest product updates, guides, and tips for thriving in 
-e-commerce with us. ​`
+          `By combining our expertise in e-commerce channels, product categories and technologies, we 
+aim to bring the best business outcomes to our clients.​`
         }
       />
       <div style={{ paddingTop: 104 }}></div>
