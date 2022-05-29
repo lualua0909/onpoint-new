@@ -1,5 +1,4 @@
 import ContainerMain from "pages/common/ContainerMain"
-import { Popover } from 'antd'
 
 import user1 from 'images/Company/About/user-1.png'
 import user2 from 'images/Company/About/user-2.png'
