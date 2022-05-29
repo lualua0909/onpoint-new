@@ -48,10 +48,9 @@ const menu = [
     link: "",
     children: [
       { name: "About", link: "/company-about" },
-      { name: "Career", link: "/" },
+      { name: "Careers", link: "/company-job" },
       { name: "Media", link: "/company-media" },
       { name: "Blog", link: "/company-blog" },
-      { name: "Job", link: "/company-job" },
     ],
   },
 ]

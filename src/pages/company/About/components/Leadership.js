@@ -160,9 +160,8 @@ export default function Leadership() {
                 return (
                   <div className="jljbxsxkgo">
                     <div className="eszpdechnj">
-                      <Popover content={hoverDetail(item?.name, item.position, item.description)} placement="bottom" title="">
-                        <img src={item?.image} className="ublinznkzk" alt="" />
-                      </Popover>
+                      {hoverDetail(item?.name, item.position, item.description)}
+                      <img src={item?.image} className="ublinznkzk" alt="" />
                     </div>
                     <div className="ukfgnyzugv">
                       <div className="vynjksrnfx">{item?.name}</div>
