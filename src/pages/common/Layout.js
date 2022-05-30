@@ -6,7 +6,6 @@ import FooterPage from "./FooterPage"
 
 import "./Layout.scss"
 import Seo from "./Seo"
-import 'antd/dist/antd.css';
 
 const Layout = ({ children }) => {
   const [scrollBar, setScrollBar] = useState(0)
